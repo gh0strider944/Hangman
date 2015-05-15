@@ -1,0 +1,194 @@
+@media (max-width: 481px) {
+	a.letters {
+		/*padding: 5px 7px;*/	
+		font-size: 17px;
+	}
+	#lettersCol {
+		padding-right: 5px;
+	}
+	#links a {
+		font-size: 16px;	
+	}
+	#displayClue {
+		font-size: 18px;
+		
+	}
+	
+	#displayGuessed {
+		font-size: 15px;
+	
+	}
+
+	#messageDiv {
+		font-size: 12px;
+	}
+	a.defaultLetterStyle {
+	
+	}
+} /*End media 481-*/
+
+
+@media (min-width: 736px) and (max-width: 1023px){
+	a.letters {
+	    /* static values */
+		padding: 8px 12px;	
+		font-size: 26px;
+		/*margin-top: 0px;
+		margin-bottom: 0px;*/
+	}
+	
+	#listClass li {
+		float: left;
+	    margin: 0 0 0 0;
+	    width: 50px;
+	    height: 55px;
+	    line-height: 55px;
+	    text-align: center;
+	    
+	    
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	}	
+	
+	
+	#displayClue {
+		font-size: 35px;
+		
+	}
+
+h1 {
+ 	font-size: 25px;
+}
+
+} /*End media 736 to 1023*/
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+	
+		a.letters {
+	    /* static values */
+		padding: 12px 20px;	
+		font-size: 36px;
+		/*margin-top: 0px;
+		margin-bottom: 0px;*/
+	}
+	
+	#listClass li {
+		float: left;
+	    margin: 0 0 0 0;
+	    width: 70px;
+	    height: 75px;
+	    line-height: 75px;
+	    text-align: center;
+	    
+	    
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	}	
+	
+	
+	#displayClue {
+		font-size: 50px;
+		
+	}
+
+h1 {
+ 	font-size: 35px;
+}
+
+		#links a {
+		font-size: 26px;
+		
+	}
+	
+	
+	#displayGuessed {
+		font-size: 25px;
+	
+	}
+
+	#messageDiv {
+		font-size: 22px;
+	}
+
+	#catSelect {
+	width: 260px;
+}
+
+#catCombo {
+	font-size: 15px;
+}
+
+	
+	
+} /*End media 1024+*/
+
+
+
+
+
+@media (min-width: 1440px){
+		a.letters {
+	    /* static values */
+		padding: 18px 24px;	
+		font-size: 40px;
+		/*margin-top: 0px;
+		margin-bottom: 0px;*/
+	}
+	
+	#listClass li {
+		float: left;
+	    margin: 0 0 0 0;
+	    width: 85px;
+	    height: 90px;
+	    line-height: 90px;
+	    text-align: center;
+	    
+	    
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	}	
+	
+	
+	#displayClue {
+		font-size: 50px;
+		
+	}
+
+h1 {
+ 	font-size: 40px;
+}
+
+		#links a {
+		font-size: 26px;
+		
+	}
+	
+	
+	#displayGuessed {
+		font-size: 30px;
+	
+	}
+
+	#messageDiv {
+		font-size: 27px;
+	}
+
+	#catSelect {
+		width: 260px;
+	}
+
+#catCombo {
+	font-size: 16px;
+}
+
+#wrapper {	
+	max-width: 1440px;
+}
+
+} /*End 1440+*/
+
+
+
+
+

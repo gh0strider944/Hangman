@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hangman</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<link href="mediaQueries.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hangman: Countries and US States">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Mike Lesher">
+	<meta name="keywords" content="mike lesher,portfolio,web,design,development,example,javascript,php,hangman">
+	<link href="_img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<div id="wrapper">
+	<header>	
+		<div id="links">
+			<ul id="linkList">
+				<li><h1>HANGMAN</h1></li>
+				&nbsp;
+				<li><a href="" class="linksClass">Reset</a></li>
+				<li><a href="#">About</a></li>
+				<li>
+					<form action="" id="catCombo">
+						<select id="catSelect">
+							<option value="usstates">US States and Territories</option>
+							<option>Countries</option>
+						</select>
+					</form>		
+				</li>
+			</ul>
+		</div>	
+	</header>
+		<div id="innerWrapper">
+			<div id="gallowCol">
+	        	<img src="_img/hangman.jpg" id="gallowImage" alt="hangman image" width="60%" height="60%">	
+				<div id="messageDiv">Guess a letter.</div>
+	       		<!--<div id="displayGuessed">?</div>-->
+	       	</div>
+	        
+	        <div id="lettersCol" style="text-align: center;">
+				<ul id="listClass">
+					<li><a href="" class="letters defaultLetterStyle">A</a></li>
+					<li><a href="" class="letters defaultLetterStyle">B</a></li>
+					<li><a href="" class="letters defaultLetterStyle">C</a></li>
+					<li><a href="" class="letters defaultLetterStyle">D</a></li>
+					<li><a href="" class="letters defaultLetterStyle">E</a></li>
+					<li><a href="" class="letters defaultLetterStyle">F</a></li>
+					<li><a href="" class="letters defaultLetterStyle">G</a></li>
+					<li><a href="" class="letters defaultLetterStyle">H</a></li>
+					<li><a href="" class="letters defaultLetterStyle">I</a></li>
+					<li><a href="" class="letters defaultLetterStyle">J</a></li>
+					<li><a href="" class="letters defaultLetterStyle">K</a></li>
+					<li><a href="" class="letters defaultLetterStyle">L</a></li>
+					<li><a href="" class="letters defaultLetterStyle">M</a></li>
+					<li><a href="" class="letters defaultLetterStyle">N</a></li>
+					<li><a href="" class="letters defaultLetterStyle">O</a></li>
+					<li><a href="" class="letters defaultLetterStyle">P</a></li>
+					<li><a href="" class="letters defaultLetterStyle">Q</a></li>
+					<li><a href="" class="letters defaultLetterStyle">R</a></li>
+					<li><a href="" class="letters defaultLetterStyle">S</a></li>	
+					<li><a href="" class="letters defaultLetterStyle">T</a></li>
+					<li><a href="" class="letters defaultLetterStyle">U</a></li>
+					<li><a href="" class="letters defaultLetterStyle">V</a></li>
+					<li><a href="" class="letters defaultLetterStyle">W</a></li>
+					<li><a href="" class="letters defaultLetterStyle">X</a></li>
+					<li><a href="" class="letters defaultLetterStyle">Y</a></li>
+					<li><a href="" class="letters defaultLetterStyle">Z</a></li>
+				</ul>
+	        </div>
+	</div>
+		<div id="infoDiv">
+			
+			<!--<div id="btnResetDiv"><a href="" class="btn btn-primary" onclick="hangman.resetGame();" id="btnReset">New Game</a></div>-->
+			<div id="displayClue">?</div>
+			
+		</div>
+	
+	</div>	<!--End wrapper -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="hangman.js"></script>
+
+
+</body>
+	
+</html>
+

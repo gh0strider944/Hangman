@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'wagnastyregular';
+    src: url('fonts/Wagnasty-webfont.eot');
+    src: url('fonts/Wagnasty-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Wagnasty-webfont.woff2') format('woff2'),
+         url('fonts/Wagnasty-webfont.woff') format('woff'),
+         url('fonts/Wagnasty-webfont.ttf') format('truetype'),
+         url('fonts/Wagnasty-webfont.svg#wagnastyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	text-align: center;
+	font-family: Courier;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	background-color: #87CEEB;
+	/*max-width: 960px;*/
+}
+h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color:#000000;	
+ 	font-size: 15px;
+	font-weight: bold;
+	font-family: "wagnastyregular";
+	display: inline;
+	
+}
+h3 {
+	font-family: "wagnastyregular";
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+header {
+	margin-top: 0px;
+} 
+
+
+
+
+#links a:hover {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+#links a {
+	color: #000092;
+	font-size: 18px;
+	font-weight: bold;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+}
+
+#links {
+	text-align: left;
+	
+}
+
+
+#linkList {
+	padding-left: 10px;
+}
+#linkList li {
+  	display: inline;
+  	list-style: none;
+	padding-right: 10px;
+	
+}
+#listClass {    
+  	font-family: "courier";
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#listClass li {
+	float: left;
+    margin: 0 0 0 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+a.letters {
+    /* static values */
+	font-family: "courier";
+	text-decoration: none;
+	padding: 6px 12px;	
+	font-weight: bold;
+	font-size: 18px;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	border-radius: 15px;
+	/*box-shadow: 3px 3px 10px #040405;*/
+}
+a:active.defaultLetterStyle, a:hover.defaultLetterStyle {/*correct guess style*/
+    /* dynamic values */
+	text-decoration: none;
+	color: #000092;
+	border-color: #000092;
+	background-color: #9a9ae8;	
+}
+a.defaultLetterStyle {
+	background-color: #000092;
+	color: #cdcde8;
+	border: 2.5px #9a9ae8 outset;
+}
+a.wrongLetterStyle {
+    /* dynamic values */
+	text-decoration: none;
+	color: #b57272;
+	background-color: #700000;
+	border: 2.5px #000000 outset;
+}
+a.correctLetterStyle {
+    /* dynamic values */
+	text-decoration: none;
+	color: #004200;
+	background-color: #90EE90;
+	border: 2.5px #004200 outset;
+}
+img {
+	text-align: center;	
+}
+#lettersCol {
+	float: right;
+	padding-right: 10px;
+	/*padding-right: 70px;*/
+	width: 60%;
+}
+#gallowCol {
+	float: left;
+	
+	width: 40%;
+	text-align: center;
+}
+
+#innerWrapper{
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+
+#wrapper {
+	
+	margin: 0 auto;
+	padding-top: 2px;
+	background-color: #87CEEB;
+	max-width: 960px;
+}
+
+#gallowImage {
+	border: 2px black solid;
+	border-radius: 4px;
+}
+
+
+#infoDiv {
+	clear: both;
+	padding-top: 5px;
+	
+}
+
+#displayClue {
+	font-family: "wagnastyregular";
+	letter-spacing: 7px;	
+	font-size: 25px;
+	color: green;
+	
+}
+#displayGuessed {
+	font-family: "wagnastyregular";
+	letter-spacing: 10px;	
+	font-size: 20px;
+	color: #666666;
+}
+#messageDiv {
+	font-family: Arial;
+	color: #700000;
+	font-size: 18px;
+	
+}
+
+#catSelect {
+	width: 160px;
+}
+
+#catCombo {
+	display: inline;
+	font-size: 10px;
+}
+.lastItem {
+        margin-right: 0;
+        }
+
+
+
+
+
+
